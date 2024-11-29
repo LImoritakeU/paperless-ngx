@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         repository: LImoritakeU/paperless-ngx
-        ref: main
+        ref: dev
         token: ${{ secrets.PAT }}
     - name: Build the Docker image
       env:
